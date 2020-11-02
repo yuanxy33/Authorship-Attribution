@@ -4,3 +4,15 @@ Use Jupyter nbviewer if you have trouble rendering the ipynb file, i.e. copy the
 
 Alternatively:
 https://nbviewer.jupyter.org/github/yuanxy33/Authorship-Attribution/blob/master/Authorship%20Attribution%20with%201st%20order%20Markov%20chain%20%281%29.ipynb
+
+Given a piece of work, how do we identify its author? This piece of work aimed to give a brief idea on authorship attribution using Markov Chain.
+
+Authorship attribution (AA) is the task of identifying the author of a given text. It should not be confused with Authorship Profiling that concern with the author’s information such as age, gender or ethnicity. It is a natural processing language classification problem.
+
+In this github, stylometry features from the train and test text has been extracted in the form transition matrices. 
+Four different similarity measurement including log-likelihood, KL divergence, JS divergence and LDA had been proposed.
+Bagging ensemble model with majority voting had been used to improved the performance.
+
+We also demonstrated techniques to handle characters that only missing in the training set, such as grouping and smoothing.
+In addition, we also experiment with different Markov Chain order.
+As a result, the model can give n accuracy of 93% and F1 score of 0.9.
