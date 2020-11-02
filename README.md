@@ -16,3 +16,6 @@ Bagging ensemble model with majority voting had been used to improved the perfor
 We also demonstrated techniques to handle characters that only missing in the training set, such as grouping and smoothing.
 In addition, we also experiment with different Markov Chain order.
 As a result, the model can give n accuracy of 93% and F1 score of 0.9.
+
+Alternatively, a simple AA using log-likelihood is demonstrated and published at Medium
+https://tengliyuan1988.medium.com/authorship-attribution-through-markov-chain-922b01a40920
