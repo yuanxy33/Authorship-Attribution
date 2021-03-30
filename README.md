@@ -4,7 +4,7 @@ Use Jupyter nbviewer if you have trouble rendering the ipynb file, i.e. copy the
 
 Given a piece of work, how do we identify its author? This piece of work aimed to give a brief idea on authorship attribution using Markov Chain.
 
-Authorship attribution (AA) is the task of identifying the author of a given text. It should not be confused with Authorship Profiling that concern with the author’s information such as age, gender or ethnicity. It is a natural processing language classification problem.
+Authorship attribution (AA) is a natural language processeing (NLP) task of identifying the author of a given text. It should not be confused with Authorship Profiling that concern with the author’s information such as age, gender or ethnicity. It is a natural processing language classification problem.
 
 In this project, stylometry features from the train and test text has been extracted in the form transition matrices. 
 Four different similarity measurement including log-likelihood, KL divergence, JS divergence and LDA had been proposed.
